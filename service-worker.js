@@ -1,4 +1,4 @@
-const CACHE_NAME = "PCI-4";
+const CACHE_NAME = "PCI-5";
 
 const FILES = [
   "./",
