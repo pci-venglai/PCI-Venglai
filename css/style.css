@@ -17,4 +17,21 @@
 
 }
 
+.page-title {
+  min-height: 100vh;
+  position: relative;
+  background: url("../images/pvl.jpeg") center / cover no-repeat;
+  color: white;
+}
 
+.page-title::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.page-title .container {
+  position: relative;
+  z-index: 1;
+}
