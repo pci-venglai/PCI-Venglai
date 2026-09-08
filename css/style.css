@@ -18,7 +18,7 @@
 }
 
 .page-title {
-    min-height: 45vh;
+    min-height: 100vh;
   position: relative;
   background-position: center;
   background-size: contain;
@@ -45,4 +45,9 @@
 .page-title .container {
   position: relative;
   z-index: 1;
+}
+@media (max-width: 576px) {
+  .page-title {
+    background-size: contain; /* remove this */
+  }
 }
