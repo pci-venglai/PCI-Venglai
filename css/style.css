@@ -48,6 +48,6 @@
 }
 @media (max-width: 576px) {
   .page-title {
-    background-size: contain; /* remove this */
+    background-size: cover; 
   }
 }
