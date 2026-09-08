@@ -18,10 +18,10 @@
 }
 
 .page-title {
-    min-height: 100vh;
+    min-height: 45vh;
   position: relative;
+  
   background-position: center;
-  background-size: contain;
   background-repeat: no-repeat;
   color: white;
 }
@@ -45,9 +45,4 @@
 .page-title .container {
   position: relative;
   z-index: 1;
-}
-@media (max-width: 576px) {
-  .page-title {
-    background-size: cover; 
-  }
 }
