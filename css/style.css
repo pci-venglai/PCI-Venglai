@@ -18,20 +18,15 @@
 }
 
 .page-title {
+  min-height: 45vh; /* about 45% of the phone screen */
   position: relative;
-  box-sizing: border-box;
-  aspect-ratio: 4 / 3; /* same shape as 1024 × 768 */
-  display: flex;
-  align-items: center;
- 
-  background-size: 100% auto; /* image fills width; keeps its shape */
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
+   background-repeat: no-repeat;
+     background-position: top center;
+   color: white;
 }
 
 .pvl-title {
-  background-image: url("../images/pvl1.jpeg");
+	background-image: url("../images/pvl1.jpeg");
 }
 
 .hmeichhe-title {
