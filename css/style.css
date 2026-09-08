@@ -20,10 +20,23 @@
 .page-title {
   min-height: 100vh;
   position: relative;
-  background: url("../images/pvl.jpeg") center / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
 }
 
+.pvl-title {
+  background-image: url("../images/pvl.jpeg");
+}
+
+.hmeichhe-title {
+  background-image: url("../images/hmeichhia.jpeg");
+}
+
+.ktp-title {
+  background-image: url("../images/ktp1.jpg");
+}
 .page-title::before {
   content: "";
   position: absolute;
@@ -34,9 +47,4 @@
 .page-title .container {
   position: relative;
   z-index: 1;
-}
-@media (max-width: 576px) {
-  .page-title {
-    background-size: contain;
-  }
 }
