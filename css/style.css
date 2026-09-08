@@ -27,16 +27,14 @@
 }
 
 .pvl-title {
-  background-image: url("../images/pvl.jpeg");
+  background-image: url("../images/pvl1.jpeg");
 }
 
 .hmeichhe-title {
   background-image: url("../images/hmeichhia.jpeg");
 }
 
-.ktp-title {
-  background-image: url("../images/ktp1.jpg");
-}
+
 .page-title::before {
   content: "";
   position: absolute;
@@ -48,3 +46,9 @@
   position: relative;
   z-index: 1;
 }
+@media (max-width: 768px) {
+  .page-title {
+    background-size: contain;
+  }
+  
+ 
