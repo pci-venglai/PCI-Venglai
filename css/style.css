@@ -18,10 +18,9 @@
 }
 
 .page-title {
-  min-height: 100vh;
-   min-height: 100svh;
+  min-height: 70vh;
   position: relative;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
