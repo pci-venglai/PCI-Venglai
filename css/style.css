@@ -18,11 +18,12 @@
 }
 
 .page-title {
-  min-height: 45vh; /* about 45% of the phone screen */
+  min-height: 100vh;
   position: relative;
-   background-repeat: no-repeat;
-     background-position: top center;
-   color: white;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 .pvl-title {
@@ -44,4 +45,9 @@
 .page-title .container {
   position: relative;
   z-index: 1;
+}
+@media (max-width: 576px) {
+  .page-title {
+    background-size: contain; 
+  }
 }
